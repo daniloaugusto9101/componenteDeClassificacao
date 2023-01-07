@@ -1,0 +1,62 @@
+@use 'variables' 
+
+.container
+    padding: 0 20px
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .card-inicio
+        background-image: linear-gradient(150deg, variables.$dark-blue, variables.$very-dark-blue)
+        border-radius: 15px
+        padding: 30px
+        display: flex
+        flex-direction: column
+        gap: 20px
+        max-width: 375px
+        &__ico:before
+            color: variables.$orange
+            background-color: variables.$dark-blue2
+            padding: 10px
+            border-radius: 50%
+            display: inline-block
+        &__title
+            color: variables.$white
+            font-size: 1.5em
+        &__text
+            color: variables.$light-grey
+        .buttons
+            display: flex
+            justify-items: center
+            justify-content: space-between
+            &__item
+                color: variables.$medium-grey
+                background-color: variables.$dark-blue2
+                padding: 10px 15px
+                border-radius: 50%
+                display: inline-block
+                cursor: pointer
+                transition: .5s
+                &:hover
+                    background-color: variables.$orange
+                    color: variables.$white
+                    font-weight: 700
+            &__item.active
+                background-color: variables.$light-grey
+                color: variables.$white
+                font-weight: 700
+            &__submit
+                background-color: variables.$orange
+                color: variables.$white
+                border: none
+                padding: 10px
+                border-radius: 20px
+                cursor: pointer
+                transition: .5s
+                text-transform: uppercase
+                &:hover
+                    background-color: variables.$white
+                    color: variables.$orange
+                    font-weight: 700

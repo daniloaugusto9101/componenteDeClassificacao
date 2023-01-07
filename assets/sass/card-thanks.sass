@@ -1,0 +1,27 @@
+@use 'variables' 
+
+.container
+    padding: 0 20px
+    width: 100vw
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .card-thanks
+        display: flex
+        justify-content: center
+        align-items: center
+        background-image: linear-gradient(150deg, variables.$dark-blue, variables.$very-dark-blue)
+        border-radius: 15px
+        padding: 30px
+        display: flex
+        flex-direction: column
+        gap: 20px
+        max-width: 375px
+        &__title
+            color: variables.$white
+            font-size: 1.5em
+        &__text
+            color: variables.$light-grey
+            text-align: center
