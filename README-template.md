@@ -1,45 +1,36 @@
-# Frontend Mentor - Interactive rating component solution
+# Frontend Mentor - solução de componente de classificação interativa
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta é uma solução para o [desafio do componente de classificação interativa no Frontend Mentor ](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-## Table of contents
+## Índice
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+- [Visão geral](#overview)
+  - [O desafio](#the-challenge)
+  - [Captura de tela](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Meu processo](#my-process)
+  - [Construído com](#built-with)
+  - [O que eu aprendi](#what-i-learned)
+  - [Desenvolvimento contínuo](#continued-development)
+  - [Recursos úteis](#useful-resources)
+- [Autor](#author)
+- [Agradecimentos](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## Visão geral
 
-## Overview
+### O desafio
 
-### The challenge
+Os usuários devem ser capazes de:
 
-Users should be able to:
+- Veja o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo
+- Veja os estados de foco para todos os elementos interativos na página
+- Selecione e envie uma classificação numérica
+- Veja o estado do cartão de "obrigado" depois de enviar uma avaliação
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+### Captura de tela
 
-### Screenshot
+![](./assets/video/video.mp4)
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
