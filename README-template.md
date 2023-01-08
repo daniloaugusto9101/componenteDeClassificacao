@@ -29,7 +29,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](./assets/video/video.mp4)
+![](./assets/images/video.gif)
 
 
 ### Links
