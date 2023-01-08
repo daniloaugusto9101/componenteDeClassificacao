@@ -18,6 +18,16 @@
   gap: 20px;
   max-width: 375px;
 }
+.container .card-thanks__ico {
+  font-size: 8em;
+  color: hsl(216deg, 12%, 54%);
+}
+.container .card-thanks__star {
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsl(213deg, 19%, 21%);
+  padding: 10px 15px;
+  border-radius: 20px;
+}
 .container .card-thanks__title {
   color: hsl(0deg, 0%, 100%);
   font-size: 1.5em;
